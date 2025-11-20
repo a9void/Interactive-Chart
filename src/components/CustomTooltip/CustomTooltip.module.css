@@ -1,0 +1,56 @@
+.tooltip {
+  background: #fff;
+  padding: 12px 14px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  font-size: 13px;
+  min-width: 180px;
+  border: 1px solid #eee;
+}
+
+.date {
+  font-weight: 600;
+  margin-bottom: 8px;
+  opacity: 0.8;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+
+  gap: 6px;
+}
+
+.icon {
+  font-size: 14px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px 0;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.name {
+  opacity: 0.85;
+}
+
+.value {
+  font-weight: 600;
+}
+
+.trophy {
+  font-size: 14px;
+  margin-left: 2px;
+}

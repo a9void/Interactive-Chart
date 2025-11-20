@@ -1,0 +1,36 @@
+.wrapper {
+  min-width: 671px;
+  max-width: 1300px;
+  margin: 48px auto;
+  padding: 20px;
+}
+
+.wrapperControls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 23px;
+}
+
+.selectors {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+
+  align-items: center;
+}
+
+.controls > *:first-child {
+  margin-right: 10px;
+}
+
+.wrapperBtn {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
